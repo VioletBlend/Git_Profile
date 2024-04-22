@@ -15,13 +15,7 @@ const CONFIG = {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual', 
-    
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['VioletBlend/tweet-archive'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
-    },
-  
+      
   skills: [
     nothing
   ],
