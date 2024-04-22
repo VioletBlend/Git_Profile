@@ -23,6 +23,25 @@ const CONFIG = {
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
+      social: {
+    linkedin: '',
+    twitter: '',
+    mastodon: '',
+    researchGate: '',
+    facebook: '',
+    instagram: '',
+    youtube: '', 
+    dribbble: '',
+    behance: '',
+    medium: '',
+    dev: '',
+    stackoverflow: '', 
+    skype: '',
+    telegram: '',
+    website: '',
+    phone: '',
+    email: '',
+  },
       manual: {
         // Properties for manually specifying projects
         projects: ['VioletBlend/tweet-archive'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
