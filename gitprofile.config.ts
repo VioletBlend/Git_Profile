@@ -14,34 +14,8 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 0, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
-        },
-      },
-      social: {
-    linkedin: 'secret',
-    twitter: 'secret',
-    mastodon: 'secret',
-    researchGate: 'secret',
-    facebook: 'secret',
-    instagram: 'secret',
-    youtube: 'secret', 
-    dribbble: 'secret',
-    behance: 'secret',
-    medium: 'secret',
-    dev: 'secret',
-    stackoverflow: 'secret', 
-    skype: 'secret',
-    telegram: 'secret',
-    website: 'secret',
-    phone: 'secret',
-    email: 'secret',
-  },
+      mode: 'automatic', // Mode can be: 'automatic' or 'manual', 
+    
       manual: {
         // Properties for manually specifying projects
         projects: ['VioletBlend/tweet-archive'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
